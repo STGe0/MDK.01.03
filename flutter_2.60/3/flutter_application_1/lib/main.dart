@@ -46,6 +46,8 @@ class MyBodyState extends State<MyBody> {
             title: Text("2^$val=$value",
             style: TextStyle(fontWeight: FontWeight.w700),),
             subtitle: Text("Число 2 перемножается $val раз"),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            leading: Icon(Icons.keyboard_arrow_right),
             );
         }
         else 
@@ -54,6 +56,8 @@ class MyBodyState extends State<MyBody> {
             title: Text("2^$val=$value",
             style: TextStyle(fontWeight: FontWeight.w700),),
             subtitle: Text("Число 2 перемножается $val раз"),
+            trailing: Icon(Icons.keyboard_arrow_right),
+            leading: Icon(Icons.keyboard_arrow_left),
             );
         }
       },
