@@ -23,8 +23,8 @@ class MyBody extends StatefulWidget {
 class MyBodyState extends State<MyBody> {
   final List<String> _array = [];
   num value = 0;
-  int value2 = 0;
-  int val = -1;
+  var value2 = 0;
+  var val = -1;
 
   @override
   Widget build(BuildContext context) {
